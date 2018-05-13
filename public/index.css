@@ -1,6 +1,13 @@
+/****************
+ * Navbar section
+ * **************/
 .navbar.navbar-default {
   margin-bottom: 0;
 }
+
+/*******************
+ * Carousel section
+ * ****************/
 .carousel .carousel-inner {
   height: 800px;
   width: auto;
