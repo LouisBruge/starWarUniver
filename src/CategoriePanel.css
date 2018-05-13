@@ -1,0 +1,27 @@
+.media {
+  margin: 2vw;
+}
+
+.media img {
+  width: 15vw;
+  height: 15vw;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 15px 0;
+}
+
+.btn-default {
+  font-size: .8em;
+  border: none;
+  background-color: #eee;
+  margin: 0 5vw;
+  -webkit-transition: margin 3s, background-color 5s;
+  transition: margin 3s, background-color 5s;
+}
+
+.btn-default:hover {
+  font-style: italic;
+  background-color: #dcdcdc;
+  margin: 0 2vw;
+}
+
