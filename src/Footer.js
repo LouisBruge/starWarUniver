@@ -5,7 +5,7 @@ import FontAwesome from 'react-fontawesome'
 export default class Footer extends React.Component {
   render () {
     return (
-      <Grid fluid>
+      <Grid fluid className='footer'>
         <Row>
           <Col xs={12} md={4}>
             <h6 className='text-center'>Website</h6>
@@ -27,10 +27,10 @@ export default class Footer extends React.Component {
           </Col>
           <Col xs={12} md={4}>
             <h6 className='text-center'>Follow us</h6>
-            <ul className='list-inline list-unstyled'>
-              <li className='center-block'><a href='https://twitter.com/BrugeLouis?lang=en'><FontAwesome name='twitter-square' /></a></li>
-              <li className='center-block'><a href='https://www.linkedin.com/in/louis-bruge/'><FontAwesome name='linkedin-square' /></a></li>
-              <li className='center-block'><a href='https://github.com/LouisBruge/'><FontAwesome name='github-square' /></a></li>
+            <ul className='list-inline list-unstyled text-center'>
+              <li><a href='https://twitter.com/BrugeLouis?lang=en'><FontAwesome name='twitter-square' /></a></li>
+              <li><a href='https://www.linkedin.com/in/louis-bruge/'><FontAwesome name='linkedin-square' /></a></li>
+              <li><a href='https://github.com/LouisBruge/'><FontAwesome name='github-square' /></a></li>
             </ul>
           </Col>
         </Row>

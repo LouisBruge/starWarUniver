@@ -55,3 +55,32 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
   }
 }
+
+/****************
+ * Footer Section
+ * **************/
+.footer {
+  background-color: #000;
+  color: #FFF5EE;
+}
+
+.footer h6 {
+  font-size: .9em;
+}
+
+.footer a {
+  color: #FFF5EE;
+}
+
+.footer p, .footer li a {
+  font-size: .7em;
+}
+
+.footer .fa {
+  font-size: 3.5em;
+  margin: 0 25px;
+}
+
+.footer a:hover {
+  font-style: italic;
+}
