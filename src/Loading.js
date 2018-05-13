@@ -9,7 +9,7 @@ export default class Loading extends React.Component {
         <Row>
           <Col xs={12} className='block-center'>
             <p className='text-center'>
-              <FontAwesome name='spinner' /> Wait...
+              <FontAwesome name='spinner' pulse size='2x' /> Wait...
             </p>
           </Col>
         </Row>
