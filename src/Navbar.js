@@ -9,6 +9,7 @@ import Vehicle from './Vehicle/Vehicle.js'
 import Species from './Species/Species.js'
 import HomeIndex from './HomeIndex'
 import {Route, BrowserRouter, Switch, NavLink} from 'react-router-dom'
+import Footer from './Footer'
 
 export default class NavBar extends React.Component {
   render () {
@@ -76,6 +77,9 @@ export default class NavBar extends React.Component {
               <CategoryIndex {...props} category='vehicles' key='5' />
             )} />
           </Switch>
+          <div>
+            <Footer />
+          </div>
         </div>
       </BrowserRouter>
 
